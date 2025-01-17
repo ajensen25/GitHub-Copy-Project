@@ -1,0 +1,113 @@
+.sub-header {
+    margin-left: 15px;
+    margin-top: 3px;
+}
+
+.nav-menu {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-overview-button {
+    display: flex;
+    border: none;
+    background-color: rgb(239, 240, 243);
+    border-radius: 5px;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(65, 64, 64);
+}
+
+.overview-img {
+    height: 30px;
+    margin-left: -15px;
+    margin-right: -5px;
+}
+
+.nav-overview-button:hover, 
+.nav-repository-button:hover, 
+.nav-projects-button:hover, 
+.nav-packages-button:hover, 
+.nav-stars-button:hover {
+    transition: background-color 0.3s;
+    background-color: rgba(226, 226, 233, 0.7);
+}
+
+.nav-repository-button {
+    margin-left: 15px;
+    display: flex;
+    border: none;
+    background-color: rgb(239, 240, 243);
+    border-radius: 5px;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(65, 64, 64);
+}
+
+.repository-img {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.nav-projects-button {
+    margin-left: 15px;
+    display: flex;
+    border: none;
+    background-color: rgb(239, 240, 243);
+    border-radius: 5px;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(65, 64, 64);
+}
+
+.projects-img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.nav-packages-button {
+    margin-left: 15px;
+    display: flex;
+    border: none;
+    background-color: rgb(239, 240, 243);
+    border-radius: 5px;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(65, 64, 64);
+}
+
+.packages-img {
+    height: 24px;
+    margin-right: 10px;
+}
+
+.nav-stars-button {
+    margin-left: 15px;
+    display: flex;
+    border: none;
+    background-color: rgb(239, 240, 243);
+    border-radius: 5px;
+    width: fit-content;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(65, 64, 64);
+}
+
+.stars-img {
+    height: 20px;
+    margin-right: 10px;
+}
