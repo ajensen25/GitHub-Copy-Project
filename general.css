@@ -8,3 +8,8 @@ p {
     margin: 0;
     padding: 0;
 }
+
+main {
+    padding-left: 15px;
+    padding-right: 15px;
+}

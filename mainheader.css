@@ -11,6 +11,7 @@
     height: 60px;
     display: flex;
     align-items: center;
+    justify-content: space-between
 }
 
 .left-main-header {
@@ -18,6 +19,7 @@
     align-items: center;
     padding-left: 15px;
     padding-top: 15px;
+    width: 180px;
 }
 
 .menu-button {
@@ -61,6 +63,8 @@
     width: fit-content;
     margin-left: 120px;
     margin-right: 20px;
+    flex: 1;
+    justify-content: end;
 }
 
 .search-bar-container {
@@ -79,7 +83,7 @@
     background-size: 15px;
     background-position: 6px;
     outline: none;
-    width: 200px;
+    width: 220px;
 }
 
 .search-bar-logo {
@@ -130,7 +134,8 @@
     margin-left: -5px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: end;
+    width: 240px;
 }
 
 .plus-button {
@@ -225,4 +230,5 @@
     border: 1px solid rgb(211, 211, 211);
     margin-left: 10px;
     cursor: pointer;
+    margin-right: 15px;
 }
