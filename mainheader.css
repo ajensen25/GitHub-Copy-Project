@@ -104,6 +104,7 @@
 
 .copilot-img {
     height: 25px;
+    margin-left: -3px;
 }
 
 .copilot-open-button {
@@ -174,7 +175,7 @@
 
 .issues-img {
     height: 15px;
-    padding-left: 3px;
+    padding-left: 1px;
 }
 
 .pull-request-button {
@@ -192,7 +193,7 @@
 
 .pull-request-img {
     height: 15px;
-    padding-left: 3px;
+    padding-left: 2px;
 }
 
 .notifications-button {
@@ -210,7 +211,7 @@
 
 .notifications-img {
     height: 15px;
-    padding-left: 3px;
+    padding-left: 1px;
 }
 
 .notifications-button:hover, 

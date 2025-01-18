@@ -1,0 +1,286 @@
+.repository-container {
+    margin-left: 25px;
+    margin-top: -15px;
+}
+
+.repository-header {
+    border-bottom: 1px solid rgb(224, 219, 219);
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.repository-searchbar {
+    height: 24px;
+    border-radius: 5px;
+    border: 1px solid rgb(218, 211, 211);
+    padding-left: 12px;
+    outline: none;
+    width: 400px;
+}
+
+.type-button:hover, 
+.language-button:hover, 
+.sort-button:hover {
+    background-color: rgb(227, 228, 231);
+}
+
+.type-button-container {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.type-button {
+    height: 28px;
+    background-color: rgb(239, 240, 243);
+    border: 1px solid rgb(182, 181, 192);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.language-button-container {
+    margin-right: 10px;
+}
+
+.language-button {
+    height: 28px;
+    background-color: rgb(239, 240, 243);
+    border: 1px solid rgb(182, 181, 192);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.sort-button-container {
+    margin-right: 10px;
+}
+
+.sort-button {
+    height: 28px;
+    background-color: rgb(239, 240, 243);
+    border: 1px solid rgb(182, 181, 192);
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.new-button {
+    height: 32px;
+    background-color: rgb(22, 156, 22);
+    color: white;
+    border: 1px solid rgb(18, 141, 24);
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.new-button:hover {
+    background-color: green;
+}
+
+.repository-img {
+    height: 18px;
+    margin-right: 4px;
+}
+
+
+
+
+
+
+.repository-list {
+    margin-top: 30px;
+}
+
+.repository {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: end;
+    border-bottom: 1px solid rgb(224, 213, 213);
+}
+
+.left-side {
+    width: 500px;
+}
+
+.repository-title {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+.repository-title h1 {
+    font-size: 22px;
+    color: rgb(32, 130, 211);
+    font-weight: 500;
+    display: flex;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.repository-title h1:hover {
+    text-decoration: underline;
+}
+
+.repository-title p {
+    font-size: 12px;
+    border: 1px solid rgb(202, 194, 194);
+    font-weight: 500;
+    color: rgb(78, 74, 74);
+    border-radius: 100px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.repository-tags {
+    display: flex;
+    align-items: center;
+}
+
+.tag {
+    border: none;
+    background-color: rgba(79, 172, 248, 0.171);
+    color: rgb(41, 95, 211);
+    border-radius: 100px;
+    padding-top: 5px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.tag:hover {
+    transition: 0.2s;
+    background-color: rgb(21, 102, 224);
+    color: white;
+}
+
+.repository-stats {
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 20px;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: rgb(80, 78, 78);
+    font-size: 13px;
+}
+
+.language .css {
+    background-color: rgb(70, 0, 128);
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    margin-right: 3px;
+}
+
+.language .html {
+    background-color: rgb(180, 71, 8);
+    height: 15px;
+    width: 15px;
+    border-radius: 100px;
+    margin-right: 3px;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    color: rgb(80, 78, 78);
+    font-size: 13px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.stars-img {
+    height: 16px;
+    margin-right: 5px;
+}
+
+.update {
+    color: rgb(80, 78, 78);
+    font-size: 12px;
+}
+
+.right-side {
+    width: 307px;
+    display: flex;
+    align-items: top;
+    justify-content: end;
+}
+
+.starred-container {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.starred-button {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    background-color: rgb(239, 240, 243);
+    border: 1px solid rgb(214, 213, 224);
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding-left: 12px;
+    padding-right: 15px;
+    color: rgb(58, 56, 56);
+    font-weight: 600;
+}
+
+.starred-button:hover, 
+.starred-dropdown-button:hover {
+    background-color: rgb(225, 227, 233);
+}
+
+.gold-star {
+    height: 25px;
+    width: 25px;
+    margin-right:  5px;
+}
+
+.starred-dropdown-button {
+    display: flex;
+    align-items: center;
+    height: 28px;
+    background-color: rgb(239, 240, 243);
+    border: 1px solid rgb(214, 213, 224);
+    border-radius: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    cursor: pointer;
+    padding-right: 8px;
+    padding-left: 8px;
+    color: rgb(58, 56, 56);
+    font-weight: 600;
+    margin-left: -2px;
+}
